@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/KarthikBogelly/GitCommands/issues"
   },
-  "homepage": "https://github.com/KarthikBogelly/GitCommands#readme"
+  "homepage": "https://github.com/KarthikBogelly/GitCommands#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
